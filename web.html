@@ -12,8 +12,8 @@
 
         // Load the image model and setup the webcam
         async function init() {
-            const modelURL = 'path/to/your/model.json';
-            const metadataURL = 'path/to/your/metadata.json';
+            const modelURL = 'model.json';
+            const metadataURL = 'metadata.json';
 
             // Load the model
             model = await tmImage.load(modelURL, metadataURL);
